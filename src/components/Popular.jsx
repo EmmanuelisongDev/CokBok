@@ -42,27 +42,6 @@ function Popular() {
               <h3 className=" font-black text-3xl md:text-8xl py-9 ">Popular Picks</h3>
 
               <div
-            //     options={{
-               
-            //       perPage:3,
-            //       breakpoints: {
-            //         1024: {
-            //       perPage: 3,
-            //         },
-            //       767: {
-            //       perPage: 2,
-            //         },
-            //       640: {
-            //       perPage: 1,
-            //   },
-            // },
-            //       focus:"center",
-            //       arrows:true,
-                  
-            //       pagination:false,
-            //       gap:"3rem",
-            //       type:"loop",
-            //     }}
             className="h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12"
               >
               {popular.map((recipe) => {
@@ -74,7 +53,7 @@ function Popular() {
                     <Link to={'/recipe/'+ recipe.id}>
                     <p className=" absolute z-10 bg-transparent font-bold left-5 top-[80%] ">{recipe.title}</p>
                   
-                    <img className=" bg-gradient-to-t from-black to-white rounded-xl absolute  left-0 w-full h-full object-cover" src={recipe.image} alt={recipe.title} /> 
+                    <img className=" bg-gradient-to-t from-black to-white bg-black rounded-xl absolute  left-0 w-full h-full object-cover" src={recipe.image} alt={recipe.title} /> 
                     
                     </Link>
                   </div>
