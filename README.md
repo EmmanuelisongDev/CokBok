@@ -14,7 +14,7 @@ CokBok is a web application that offers recipes and techniques for cooking for I
 
 ## Description
 
-CokBok is a web application that displays recipes and procedures for cooking Italian, American, Japanese, and Thai foods utilizing the Spoonacular Api,React + Vite, and TailwindCss.
+CokBok is a web application that displays recipes and procedures for cooking Italian, American, Japanese, and Thai foods utilizing the Spoonacular Api,React + Vite, and TailwindCSS.
 
 ## Features
 
